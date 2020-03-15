@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        String[] autocorrectTerms = {"ghost", "green", "jizz", "saucer", "train", "freedom", "generation"};
+        String[] autocorrectTerms={"hello", "high", "seattle", "seatac", "see", "hollow", "how"};
         AutocompleteEngine a = new AutocompleteEngine(autocorrectTerms);
         System.out.println(a.fullLetterDictionary);
-        System.out.println(a.search("g"));
+        System.out.println(a.search("ho"));
     }
 }
